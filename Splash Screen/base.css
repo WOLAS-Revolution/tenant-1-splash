@@ -81,6 +81,10 @@ p {
     left: -52px;
 }
 
+.nav-item-c > .nav-item-r{
+    margin-top: 0 !important;
+}
+
 .nav-item-r{
     float: right;
     padding-left: 15px;
@@ -154,6 +158,15 @@ iframe {
     padding-bottom: 8px;
 }
 
+#list-s a{
+    width: 35px !important;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 10px;
+    display: inline;
+    text-align: center;
+}
+
 #qualhead{
     font-weight: 700;
     font-size: 105%;
@@ -175,6 +188,7 @@ iframe {
     
     .news-container > .news-wrapper {   
         width: 17.5%;
+        /*border: 2px solid #FFF;*/
     }
     
 }
