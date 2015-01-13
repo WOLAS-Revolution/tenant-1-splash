@@ -1,0 +1,304 @@
+body {
+    background-color: #34495e;
+    margin-bottom: 60px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif !important;
+}
+
+p {
+    font-weight: 600;
+    font-size: 95% !important;
+}
+
+#splash-header {
+    background-color: #2C3E4F;
+    border-bottom: 1px solid #283847;
+    color: white;
+    padding-top: 5px;
+    height: 60px !important;
+}
+
+#content{
+    margin-top: 15px;
+}
+
+#splash-left {
+    padding: 10px;  
+    opacity: 0;
+}
+
+#splash-right {
+    padding: 10px;
+}
+
+#newsarea{
+    width: 106%;
+    margin-left: -1%;
+    position: absolute;
+}
+
+#mini-menu, #mini-login{
+    display: none;
+}
+
+#mini-menu > button, #mini-login > button{
+    height: 50px;
+    width: 50px !important;
+    overflow: hidden;
+}
+
+#mini-login button{
+    padding: 6px 2px 7px !important;
+    margin-right: 5px;
+}
+
+#mini-login p{
+    font-size: 80% !important;
+    font-weight: 700;
+    text-align: center;
+    color: #0073aa !important;
+    margin: 0 !important;
+}
+
+.nav-items{
+    padding: 0 25px;
+}
+
+.nav-item-l, .nav-item-c, .nav-item-r{
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+}
+
+.nav-item-l{
+    float: left;
+    padding-right: 15px;
+}
+
+.nav-item-c{
+    width: 530px;
+    margin: 10px auto 0;
+    padding: 0 15px;
+    left: -52px;
+}
+
+.nav-item-r{
+    float: right;
+    padding-left: 15px;
+    margin-top: -50px !important;
+}
+
+iframe {
+    height: 90%;
+    margin-bottom: 10px;
+}
+
+.status-components {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #DBDBDB;
+    background-color: white;
+}
+
+.component {
+    width: 100%;
+    padding: 8px 12px;
+}
+
+.component > .component-header {
+    font-weight: 600;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.component > .name {
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;    
+    max-width: 85%;
+    overflow: hidden;
+    font-size: 90%;
+}
+
+.component > .status-icon {
+    float: right;
+    vertical-align: middle;
+}
+
+.news-container > .news-wrapper {
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rbg(219, 219, 219);
+    float: left;    
+    margin: 0 1% 10px;
+}
+
+.news-image {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.news-container > .news-wrapper > .news-desc {
+    background-color: white;
+    padding: 8px;
+    color: #34495e;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#list-s{
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+#qualhead{
+    font-weight: 700;
+    font-size: 105%;
+    color: #000;
+    padding: 8px 0 8px 20px;
+}
+
+
+@media all and (min-width: 1200px) {
+    
+    #newsarea {   
+        width: 104.5%;
+    }
+    
+}
+
+
+@media all and (min-width: 1001px) {
+    
+    .news-container > .news-wrapper {   
+        width: 17.5%;
+    }
+    
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1000px) {
+    
+    .news-container > .news-wrapper {   
+        width: 22%;
+    }
+    
+}
+
+
+@media all and (max-width: 900px) {
+    
+    .nav-item-c > .nav-item-r{
+        display: none;
+    }
+    
+    .nav-item-c{
+        width: 384px;
+    }
+    
+}
+
+
+@media all and (min-width: 525px) and (max-width: 768px) {
+    
+    .news-container > .news-wrapper {   
+        width: 30%;
+    }
+    
+}
+
+
+@media all and (max-width: 768px) {
+
+    #mini-menu, #mini-login{
+        display: block;
+        float: right;
+   
+    }
+    
+    .nav-item-c{
+        display: none;
+    }
+    
+    .nav-item-r{
+        display: none;
+    }
+
+}
+
+
+@media all and (min-width: 381px) and (max-width: 524px) {
+    
+    .news-container > .news-wrapper {   
+        width: 46%;
+    }
+    
+}
+
+
+@media all and (max-width: 380px) {
+    
+    p {
+        font-size: 100% !important;
+    }
+    
+    .news-container > .news-wrapper {   
+        width: 98%;
+    }
+    
+    #newsarea {
+        width: 102%;
+    }
+    
+    #content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #mini-menu{
+        width: 100%;
+        top: -50px;
+    }
+    
+    #mini-login{
+        margin-top: -101px !important;
+        margin-right: 50px !important;
+    }
+    
+    #mini-login button{
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #mini-menu > button, #mini-login > button{
+        float: right;
+    }
+    
+    .nav-items {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .dropdown {
+        position: static;
+    }
+    
+    .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .dropdown-menu > li {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        text-wrap: normal;
+    }
+    
+    .dropdown-menu > li > a {
+        white-space: normal;
+    }
+}
